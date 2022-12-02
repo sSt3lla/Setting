@@ -9,7 +9,7 @@ chsh -s $(which zsh)
 sudo apt install tmux xclip -yq
 
 cd
-git clone https://github.com/sSt3lla/.tmux-config
+git clone https://github.com/sSt3lla/.tmux-config .tmux
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
 
