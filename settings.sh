@@ -12,6 +12,3 @@ cd
 git clone https://github.com/sSt3lla/.tmux-config .tmux
 ln -s -f .tmux/.tmux.conf
 cp .tmux/.tmux.conf.local .
-
-#Now we restart
-sudo reboot
